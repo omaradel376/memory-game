@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game | By OMAR ADEL</title>
+    <link rel="icon" href="./logo_transparent.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- زر بدء اللعبة -->
+    <div class="control-buttons">
+      <span>start game</span>
+    </div>
+    <!-- اسم اللاعب وعدد الخطأ -->
+    <div class="info-container">
+      <div class="name">Hello : <span></span></div>
+      <div class="tries">Wrong Tries: <span>0</span></div>
+    </div>
+    <!-- مربعات اللعبة -->
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="angular">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/dd6699/ffffff/140x140.png?text=angular"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="angular">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/dd6699/ffffff/140x140.png?text=angular"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vuejs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/000/ffffff/140x140.png?text=vuejs"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vuejs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/000/ffffff/140x140.png?text=vuejs"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/ff0000/ffffff/140x140.png?text=css3"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/ff0000/ffffff/140x140.png?text=css3"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/00ff00/ffffff/140x140.png?text=github"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/00ff00/ffffff/140x140.png?text=github"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/0000ff/ffffff/140x140.png?text=html5"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/0000ff/ffffff/140x140.png?text=html5"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="jest">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/ff00ff/ffffff/140x140.png?text=jest"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="jest">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/ff00ff/ffffff/140x140.png?text=jest"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="mongodb">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/00ffff/ffffff/140x140.png?text=mongodb"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="mongodb">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/00ffff/ffffff/140x140.png?text=mongodb"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/673ab7/ffffff/140x140.png?text=python"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/673ab7/ffffff/140x140.png?text=python"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/b46143/ffffff/140x140.png?text=react"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/b46143/ffffff/140x140.png?text=react"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="java">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/20b30c/ffffff/140x140.png?text=java"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="game-block" data-technology="java">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="https://placehold.jp/30/20b30c/ffffff/140x140.png?text=java"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ملفات الصوت -->
+    <audio class="win" src="./audio/mixkit-game-loot-win-2013.wav"></audio>
+    <audio class="lose" src="./audio/wrong-answer-126515.mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
